@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relaxing - Deira</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 10px 0px;
+            color: #333;
+        }
+
+        .hero {
+            background-image: url('imgg/relaxing.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: white;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+            z-index: 1;
+            position: relative;
+            font-weight: bold;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin: 20px 0;
+            z-index: 1;
+            position: relative;
+        }
+
+        .content {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #F8F1E8;
+            color: #6A4E23;
+        }
+
+        .content h2 {
+            font-size: 2.5rem;
+            color: #6A4E23;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .content p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px;
+            color: #333;
+        }
+
+        /* Additional Styles for better spacing and responsiveness */
+        .place-section {
+            padding: 40px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .place {
+            display: flex;
+            width: 48%;
+            background-color: #F8F1E8;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .place img {
+            width: 50%;
+            border-radius: 10px;
+        }
+
+        .place-text {
+            padding-left: 20px;
+            color: #6A4E23;
+        }
+
+        .place-text h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #D4C4A8;
+            color: #4a4a4a;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer nav a {
+            color: #4a4a4a;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.9rem;
+        }
+
+        footer nav a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-contact {
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>IT'S TIME TO RELAX IN OMAN</h1>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content">
+        <h2>FORGET YOUR WORRIES</h2>
+        <p> Searching for a dream vacation? The perfect escape from the bustle of everyday life is provided by Oman. This hidden treasure is perfect for unwinding and rejuvenating, 
+		offering gorgeous beaches, tranquil desert vistas, and opulent resorts. Discover the pristine wadis, relax in opulent hotels, and take in the splendor of the towering mountains.
+		Allow Oman's tranquil allure to help you forget all of your concerns.</p>
+    </section>
+
+<section class="place-section" style="display: flex; flex-direction: column; gap: 20px; padding: 0;">
+    <div class="place" style="display: flex; flex-direction: row-reverse; width: 100%; height: 70vh; background-color: #F8F1E8; padding: 20px; align-items: center;">
+        <img src="imgg/hous.jpg" alt="LUXURIOUS HOUSES IN OMAN" style="width: 60%; height: 100%; object-fit: cover; border-radius: 10px;">
+        <div class="place-text" style="padding-right: 20px; color: #6A4E23; max-width: 40%; text-align: left;">
+            <h3 style="font-size: 2rem; font-weight: bold;">LUXURIOUS HOUSES IN OMAN</h3>
+            <p style="font-size: 1.2rem; line-height: 1.6;">Imagine waking up to breathtaking vistas of immaculate beaches with soft waves crashing nearby. Oman is home to several luxurious resorts, each offering an own haven. 
+			These resorts promise luxury and excitement, from the opulent Al Jabal Al Akhdar Resort in the foothills to the tranquil Zighy Bay near the shore.</p>
+        </div>
+    </div>
+
+
+<section class="place-section" style="display: flex; flex-direction: column; gap: 20px; padding: 0;">
+    <div class="place" style="display: flex; width: 100%; height: 70vh; background-color: #F8F1E8; padding: 20px; align-items: center;">
+        <img src="imgg/beach.jpg" alt="OMAN'S AMAZING BEACHES" style="width: 60%; height: 100%; object-fit: cover; border-radius: 10px;">
+        <div class="place-text" style="padding-left: 20px; color: #6A4E23; max-width: 40%;">
+            <h3 style="font-size: 2rem; font-weight: bold;">OMAN'S AMAZING BEACHES</h3>
+            <p style="font-size: 1.2rem; line-height: 1.6;">Beautiful beaches in Oman include smooth sand and glistening seas, making them ideal for both leisure and exploration. 
+			There are stunning vistas and one-of-a-kind experiences wherever you look, whether you're relaxing at Fins Beach or visiting the charming Tiwi Beach.</p>
+        </div>
+    </div>
+	
+	<section class="place-section" style="display: flex; flex-direction: column; gap: 20px; padding: 0;">
+    <div class="place" style="display: flex; flex-direction: row-reverse; width: 100%; height: 70vh; background-color: #F8F1E8; padding: 20px; align-items: center;">
+        <img src="imgg/mind.jpg" alt="OMAN'S MINDFULNESS PRACTICES " style="width: 60%; height: 100%; object-fit: cover; border-radius: 10px;">
+        <div class="place-text" style="padding-right: 20px; color: #6A4E23; max-width: 40%; text-align: left;">
+            <h3 style="font-size: 2rem; font-weight: bold;">OMAN'S MINDFULNESS PRACTICES </h3>
+            <p style="font-size: 1.2rem; line-height: 1.6;">Oman's stunning scenery and rich culture provide a great setting for mindfulness. Deep ties with nature are fostered by tranquil beaches and deserts.
+			In breathtaking locations like Wadi Shab, visitors may practice yoga and meditation while taking in the serenity and beauty of their surroundings.</p>
+        </div>
+    </div>
+
+    <!-- Additional places can be added here with the same layout -->
+</section>
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <nav>
+            <a href="Deira.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="visit.html">Visit</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-contact">
+            <p>Email: email@example.com | Phone: 123-456-7890</p>
+        </div>
+    </footer>
+
+</body>
+</html>

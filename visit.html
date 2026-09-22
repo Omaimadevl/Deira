@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Oman - Deira</title>
+    <style>
+
+        body { 
+            margin: 0;
+            padding: 10px 0px;
+            color: #333;
+			
+        }
+
+
+        .hero {
+            background-image: url('imgg/visit.jpg'); 
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: white;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); 
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+            z-index: 1;
+            position: relative;
+            font-weight: bold;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin: 20px 0;
+            z-index: 1;
+            position: relative;
+        }
+
+
+        .content {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #F8F1E8;
+            color: #6A4E23;
+        }
+
+        .content h2 {
+            font-size: 2.5rem;
+            color: #6A4E23;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .content p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px;
+            color: #333; 
+        }
+
+        .boxes-section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .boxes-section h2 {
+            font-size: 2rem;
+            color: #6A4E23; 
+            margin-bottom: 40px;
+            font-weight: bold;
+        }
+
+        .boxes-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .box {
+            flex: 1;
+            max-width: 300px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .box img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .box h3 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+            color: #6A4E23;
+        }
+
+        .box button {
+            background-color: #6A4E23; 
+            color: white;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .box button:hover {
+            background-color: #8A6A3B;
+        }
+
+
+        .contact {
+            background-color: #6A4E23; 
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .contact p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+
+        footer {
+            background-color: #D4C4A8;
+            color: #4a4a4a; 
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer nav a {
+            color: #4a4a4a;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.9rem;
+        }
+
+        footer nav a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-contact {
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Explore Oman</h1>
+        <p>Choose your journey and discover the beauty of Oman.</p>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content">
+        <h2>LET US ORGANIZE YOUR TRIP</h2>
+        <p>Explore the hidden gems of Oman with Deira. From thrilling adventures to cultural experiences and serene relaxation, 
+        we take care of every detail to make your trip unforgettable. Whether you're looking to climb breathtaking mountains, 
+        discover ancient souks, or unwind by the pristine beaches, Deira ensures your experience is seamless and magical.</p>
+    </section>
+
+    <!-- Boxes Section -->
+    <section class="boxes-section">
+        <h2>LICENCE TO LIVE</h2>
+        <div class="boxes-container">
+            <div class="box">
+                <img src="imgg/adventure.jpg" alt="Adventure">
+                <h3>Adventure</h3>
+                <button onclick="window.location.href='adventure.html'">Explore Adventure</button>
+            </div>
+            <div class="box">
+                <img src="imgg/relax.jpg" alt="Relaxation">
+                <h3>Relaxation</h3>
+                <button onclick="window.location.href='relaxing.html'">Relax in Oman</button>
+            </div>
+            <div class="box">
+                <img src="imgg/Culture2.jpg" alt="Culture">
+                <h3>Culture</h3>
+                <button onclick="window.location.href='culture.html'">Discover Culture</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>CONTACT US</h2>
+        <p>Discover Oman’s finest destinations with us. Whether you’re planning a getaway to explore cultural treasures, 
+        enjoy thrilling adventures, or relax on tranquil beaches, Deira is here to make it happen. Let us help you 
+        create unforgettable memories in one of the world’s most beautiful countries.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <nav>
+            <a href="Deira.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="visit.html">Visit</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-contact">
+            <p>Email: email@example.com | Phone: 123-456-7890</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="transparent-header" id="menu">
+        <nav>
+		        <img src="imgg/logod.png" alt="Logo" class="logo">
+
+            <ul>
+			    <li><a href="Deira.html" class="on">HOME</a></li>
+                <li><a href="#pricing">PRICNG</a></li>
+				<li class="dropdown">
+                    <a href="visit.html" class="dropbtn">VISIT</a>
+                    <div class="dropdown-content">
+                        <a href="adventure.html">ADVENTURE</a>
+                        <a href="relaxing.html">RELAX</a>
+                        <a href="culture.html">CULTURE</a>
+                    </div>
+                </li>
+                <li><a href="#about-us">ABOUT US</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+	<script>
+    window.addEventListener('scroll', function () {
+         const menu = document.getElementById('menu');
+		 if (window.scrollY > 50){
+		     menu.classList.add('scrolled');
+        } else {
+            menu.classList.remove('scrolled');
+        }
+    });
+    </script>
+
+    <section class="section hero">
+    <div class="overlay">
+        <h2> IT’S TIME TO VISIT OMAN  </h2>
+    </div>
+    </section>
+
+    <section class="section light-brown">
+	<h2 class="section-header">LICENCE TO LIVE</h2>
+
+    <div class="container">
+        <div class="image">
+            <img src="imgg/adventure.jpg" alt="Destination 1">
+            <h3>ADVENTURE</h3>
+            <button>EXPLORE OMAN</button>
+        </div>
+        <div class="image">
+            <img src="imgg/culture.jpg"alt="Destination 2">
+            <h3>CULTURE</h3>
+            <button>UNDERSTAND OMAN</button>
+        </div>
+        <div class="image">
+            <img src="imgg/relax.jpg" alt="Destination 3">
+            <h3>RELAXATION</h3>
+            <button>RELAX IN OMAN </button>
+        </div>
+    </div>
+    </section>
+
+    <section class="section white">
+        <h2>Section 3: Contact Us</h2>
+        <p>Reach out to us for personalized travel plans.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Deira Website</p>
+    </footer>
+	
+	
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure - Deira</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 10px 0px;
+            color: #333;
+        }
+
+        .hero {
+            background-image: url('imgg/adventure.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: white;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+            z-index: 1;
+            position: relative;
+            font-weight: bold;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin: 20px 0;
+            z-index: 1;
+            position: relative;
+        }
+
+        .content {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #f0e1d2;
+            color: #6A4E23;
+        }
+
+        .content h2 {
+            font-size: 2.5rem;
+            color: #6A4E23;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .content p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px;
+            color: #333;
+        }
+
+        /* Additional Styles for better spacing and responsiveness */
+        .place-section {
+            padding: 40px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .place {
+            display: flex;
+            width: 48%;
+            background-color: #F8F1E8;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .place img {
+            width: 50%;
+            border-radius: 10px;
+        }
+
+        .place-text {
+            padding-left: 20px;
+            color: #6A4E23;
+        }
+
+        .place-text h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #D4C4A8;
+            color: #4a4a4a;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer nav a {
+            color: #4a4a4a;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.9rem;
+        }
+
+        footer nav a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-contact {
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>IT'S TIME FOR ACTION </h1>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content">
+        <h2>EXPERIENCE OMAN'S ADVENTURE PARADISE</h2>
+        <p> If you’re seeking thrilling adventures, Oman is your ultimate destination. Whether you’re climbing mountains, exploring wadis, 
+		or diving into crystal-clear waters, Oman offers boundless opportunities to satisfy your adventurous spirit.</p>
+    </section>
+
+<section class="place-section" style="display: flex; flex-direction: column; gap: 20px; padding: 0;">
+    <div class="place" style="display: flex; flex-direction: row-reverse; width: 100%; height: 70vh; background-color: #F8F1E8; padding: 20px; align-items: center;">
+        <img src="imgg/adve.jpg" alt="ROADS FULL OF ADVENTURE" style="width: 60%; height: 100%; object-fit: cover; border-radius: 10px;">
+        <div class="place-text" style="padding-right: 20px; color: #6A4E23; max-width: 40%; text-align: left;">
+            <h3 style="font-size: 2rem; font-weight: bold;">ROADS FULL OF ADVENTURE</h3>
+            <p style="font-size: 1.2rem; line-height: 1.6;">Oman offers a landscape full of excitement and exploration. From ancient forts and charming villages to majestic mountains and rugged coastlines, there’s something for every adventure enthusiast. 
+			Whether you’re hiking through the Al Hajar range or exploring the deep canyons of Wadi Bani Awf, the roads in Oman provide the perfect access to breathtaking views and thrilling outdoor experiences. Get ready to discover hidden gems and embark on an unforgettable adventure in this beautiful country.</p>
+        </div>
+    </div>
+
+
+<section class="place-section" style="display: flex; flex-direction: column; gap: 20px; padding: 0;">
+    <div class="place" style="display: flex; width: 100%; height: 70vh; background-color: #F8F1E8; padding: 20px; align-items: center;">
+        <img src="imgg/sea.jpg" alt="THRILLING WAVES IN OMAN" style="width: 60%; height: 100%; object-fit: cover; border-radius: 10px;">
+        <div class="place-text" style="padding-left: 20px; color: #6A4E23; max-width: 40%;">
+            <h3 style="font-size: 2rem; font-weight: bold;">THRILLING WAVES IN OMAN</h3>
+            <p style="font-size: 1.2rem; line-height: 1.6;">Oman’s coastline offers exciting water adventures, from surfing the Arabian Sea to snorkeling around Daymaniyat Islands.
+			Whether you seek adrenaline or relaxation, Oman’s waters provide the perfect blend for adventure seekers.</p>
+        </div>
+    </div>
+	
+	<section class="place-section" style="display: flex; flex-direction: column; gap: 20px; padding: 0;">
+    <div class="place" style="display: flex; flex-direction: row-reverse; width: 100%; height: 70vh; background-color: #F8F1E8; padding: 20px; align-items: center;">
+        <img src="imgg/tree.jpg" alt="IMPRESSIONABLE SCENERY IN OMAN " style="width: 60%; height: 100%; object-fit: cover; border-radius: 10px;">
+        <div class="place-text" style="padding-right: 20px; color: #6A4E23; max-width: 40%; text-align: left;">
+            <h3 style="font-size: 2rem; font-weight: bold;">IMPRESSIONABLE SCENERY IN OMAN </h3>
+            <p style="font-size: 1.2rem; line-height: 1.6;">Oman’s Al Hajar Mountains, with their towering peaks and dramatic valleys, offer stunning views and rugged terrains for adventurers.
+			From lush wadis to rocky cliffs, Oman’s diverse landscapes promise unforgettable experiences for nature lovers.</p>
+        </div>
+    </div>
+
+    <!-- Additional places can be added here with the same layout -->
+</section>
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <nav>
+            <a href="Deira.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="visit.html">Visit</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-contact">
+            <p>Email: email@example.com | Phone: 123-456-7890</p>
+        </div>
+    </footer>
+
+</body>
+</html>

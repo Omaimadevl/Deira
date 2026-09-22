@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Deira Application</title>
+<style>
+body{
+font-size:80%;
+font-family:"courier New",courier,monospace;
+letter-spacing:0.15em;
+background-color:#F5F5F5;}
+#navigation{
+padding:0.5em 0;
+margin:1%; 
+}
+#page{
+max-width:940px;
+min-width:720px;
+margin:10px auto 10px auto;
+padding:20px;
+border:4px double #000;
+background-color:#F5F5F5;
+}
+#logo{
+position:relative; left:500px; top:2px; right:300px
+
+}
+ul{
+width:570px;
+padding:15px;
+margin:0px auto 0px auto;
+border-top:2px solid #000;
+border-bottom:1px solid #000;
+text-align:center;
+}
+li{
+display:inline;
+margin:0px 3px;
+}
+p{
+text-align:center;
+font-size:20px;
+width:800px;
+margin:20px auto 20px auto;
+font-weight:normal;
+font-family:Garamond;}
+a{
+color:#000000;
+text-transform:uppercase;
+text-decoration:none;
+padding:6px 18px 5px 18px;
+}
+a:hover,a.on{
+color:#cc3333;
+background-color:#5F9EA0;
+}
+.column1,.column2,.column3{
+width:31.3%;
+float:left;
+margin:1%;
+}
+
+#footer{
+background-color: #777;
+  padding:10px;
+  color: white;
+}
+.par{
+width:300px;
+font-weight:normal;
+font-family:Cursive;
+text-align:center;
+}
+h2{
+text-align:center;
+}
+form{
+position:relative;
+left:1000px; 
+ bottom:100px;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+</style>
+<script>
+function test()
+{
+  alert("Hello to Deira Application ");
+ }
+</script>
+</head>
+<body onload="test()">
+
+
+<div id="logo">
+<img src="imgg/log.jpg"  width="250" height="250" alt="The Analog Specialisty"/>
+</div>
+<ul >
+    <li><a href="#" class="on"> HOME </a></li>
+	<li><a href="offer.html"> Best Offer </a></li>
+	<li><a href="details.php"> Book Now </a></li> <br> <br>
+    <li> <details close> <summary> ABOUT US</summary>
+	                  <p style="text-align:center;">The "Deira" website aims to develop the tourism sector by providing
+                        the opportunity for tourists to discover the archaeological sites 
+                        in the Sultanate of Oman and promote the Sultanate of Oman as a 
+                         distinguished international tourist destination.</p></details></li> 
+	
+</ul>
+
+
+<marquee  onmouseover="stop()" onmouseout="start()">
+
+<h1>...Welcome To The Deira Application... </h1></marquee>
+<h1>
+<img src="imgg/traaav.jpg" style="position:relative; left:400px; top:2px;" width="500" height="400" alt="Fender Rhodes,Hohner Clavinet"/>
+</h1>
+
+
+<p>
+Nothing is more interesting than traveling in sufficiency and wellness,
+ because you come every day to a place where you did not live, 
+ and communicate with people you do not know.And There is no big
+ difference between east and west, south and north. Whatever your 
+ destination, you must make the journey you take a journey within you.
+</p>
+</div>
+
+
+      <div class="article column1">
+         <img src="imgg/serves.png" style="width:250px; border-radius: 50%; border: 5px double black; position:relative; left:80px; top:2px"  alt="img"  />
+           <h2>Services In Application</h2>
+
+<p class="par">
+  - Hotels and breakfasts<br>
+  - A tour guide<br>
+  - Service and tax<br>
+  - Personal driver
+</p>  
+      </div>
+   
+  <div class="article column2">
+            <img src="imgg/special.jpg" style="width:250px; border-radius: 50%; border: 5px double black; position:relative; left:80px; top:2px"  alt="img2"/>
+			<h2>...Most Visited Places...</h2>
+    <p class="par">
+	<a href="jebal.html">Jebel Akhdar</a><br>
+	<a href="waheba.html">Wahiba Sands</a><br>
+	<a href="salalah.html">Salalah</a>
+	</p>
+  </div>
+  
+       <div class="article column3">
+             <img src="imgg/tour.png" style="width:250px; border-radius: 50%; border: 5px double black; position:relative; left:80px; top:2px"  alt="img3"/>
+         <h2>...Tour Guide...</h2>
+
+<p class="par">
+  1.Reem AlAbri<br>
+  2.Salman Al-Khatri<br>
+  3.Ahmed Al-Moqbali
+</p>  
+       </div>
+	   <br><br><br><br><br><br><br><br><br><br><br><br><br>
+	 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	 
+<div id="footer">
+<h3 style="text-align:left"> &copy; copyright 2024:: </h3>
+<h3 style="text-align:left">Abrar  AL-Abri <br>
+Najoud AL-Maqbali<h3>
+<form action="/action_page.php" >
+<label for="comments">..Comments..</label><br>
+<textarea id="comments"  required rows="4" cols="30">
+</textarea><br>
+<input type="submit" value="Submit your comments">
+</form>
+
+<a href="#"><img src="imgg/icon1.jpg" alt="Avatar" class="avatar"></a>
+<a href="#"><img src="imgg/icon2.jpg" alt="Avatar" class="avatar"></a>
+<a href="#"><img src="imgg/icon3.jpg" alt="Avatar" class="avatar"></a>
+<a href="https://www.instagram.com/deira257?igsh=b2IycnBwN3B4NGMy&utm_source=qr"><img src="imgg/icon4.jpg"  alt="Avatar" class="avatar"></a>
+</div>	 
+</body>
+</html>

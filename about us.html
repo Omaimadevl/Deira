@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Deira Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Hero Section */
+        .hero {
+            background-image: url('imgg/aboutus.jpg'); /* Add the uploaded image path here */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            position: relative;
+            height: 60vh;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+        }
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            margin: 0;
+            z-index: 1;
+            position: relative;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            font-weight: lighter;
+            z-index: 1;
+            position: relative;
+        }
+
+        
+        /* About Section Styling */
+        .about {
+            background-color: #D4C4A8; /* Light beige background for the section */
+            color: #333; /* Dark text color */
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .about h2 {
+            font-size: 2.5rem;
+            color: #6A4E23; /* Brown color for the heading */
+            margin-bottom: 20px;
+        }
+        .about p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #555; /* Slightly lighter text color for readability */
+            max-width: 800px;
+            margin: 0 auto;
+        }
+		.about-admins {
+		    background-color: #f4f4f4; /* Light grey background */
+            color: #333; /* Dark text */
+            padding: 40px;
+            text-align: center;
+		}
+		.about-admins h2 {
+           font-size: 2rem;
+           color: #6A4E23; /* Brown color for heading */
+           margin-bottom: 30px;
+        }
+		
+		.admin {
+           background-color: #fff; /* White background for each admin */
+           margin-bottom: 20px;
+           padding: 20px;
+           border-radius: 10px;
+           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+           text-align: center;
+        }
+
+        .admin-img {
+           width: 120px;
+           height: 120px;
+           border-radius: 50%;
+           margin-bottom: 15px;
+           object-fit: cover;
+        }
+
+        .admin h3 {
+           font-size: 1.5rem;
+           color: #6A4E23;
+           margin-bottom: 10px;
+        }
+
+        .admin p {
+           font-size: 1rem;
+           color: #555;
+        }
+
+        
+
+		
+		.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D4C4A8; /* Light brown */
+    color: #4a4a4a; /* Dark text for readability */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-logo {
+    width: 200px; /* Adjust logo size as needed */
+    height: auto;
+}
+
+.footer-content {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align text and social icons to the right */
+}
+
+.footer nav {
+    margin: 10px 0;
+}
+
+.footer nav a {
+    margin: 0 15px;
+    color: #4a4a4a;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer nav a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust size */
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Slight zoom on hover */
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>KNOW DEIRA WEBSITE</h1>
+        <p>YOUR ULTIMATE TRAVEL COMPANION IN OMAN</p>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about">
+	    <h2>About Deira Website</h2>
+        <p>Deira Website is the ultimate travel platform for tourists visiting Oman. We offer an easy-to-use interface that connects 
+		you with the best destinations in Oman and the most convenient transportation options. Whether you're seeking 
+		adventure,relaxation, or cultural experiences, Deira ensures 
+		that every aspect of your trip is carefully tailored to make your experience seamless and unforgettable.</p>
+         
+    </section>
+
+    <!-- Team Members Section -->
+	<section class="about-admins">
+    <h2>Meet Our Team</h2>
+    
+    <!-- Admin 1 -->
+    <div class="admin">
+        <img src="imgg/admin.png" alt="Abrar Juma AL-Abri" class="admin-img">
+        <h3>Abrar Juma AL-Abri</h3>
+        <p>"I’ve worked in the tourism industry for several years. I am passionate about ensuring that tourists have a smooth and memorable experience in Oman."</p>
+    </div>
+    
+    <!-- Admin 2 -->
+    <div class="admin">
+        <img src="imgg/admin.png" alt="Rawan Humaid AL-Badi" class="admin-img">
+        <h3>Rawan Humaid AL-Badi</h3>
+        <p>"With a background in hospitality and customer service, my goal is to create a seamless experience for travelers visiting Oman, ensuring they have all the information they need."</p>
+    </div>
+    
+    <!-- Admin 3 -->
+    <div class="admin">
+        <img src="imgg/admin.png" alt="Omaima Humaid AL-Muqershi" class="admin-img">
+        <h3>Omaima Humaid AL-Muqershi</h3>
+        <p>"I am passionate about the culture and natural beauty of Oman. My goal is to make sure travelers explore the best of our country with ease and comfort."</p>
+    </div>
+    </section>
+
+
+   <footer class="footer">
+    <img src="imgg/logod.png" alt="Deira Logo" class="footer-logo">
+    <div class="footer-content">
+        <nav>
+            <a href="#about-us">About us</a>
+            <a href="visit.html">Visit</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#follow-us">Follow Us</a>
+        </nav>
+        <p>Email: email@example.com || Phone: 123-456-7890</p>
+        <div class="social-icons">
+            <a href="#"><img src="imgg/twitter.png" alt="Twitter" class="social-icon"></a>
+            <a href="#"><img src="imgg/facebook.png" alt="Facebook" class="social-icon"></a>
+            <a href="#"><img src="imgg/social.png" alt="Instagram" class="social-icon"></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+
+
+  

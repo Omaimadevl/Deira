@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culture - Deira</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 10px 0px;
+            color: #333;
+        }
+
+        .hero {
+            background-image: url('imgg/culture.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: white;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+            z-index: 1;
+            position: relative;
+            font-weight: bold;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin: 20px 0;
+            z-index: 1;
+            position: relative;
+        }
+
+        .content {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #f0e1d2;
+            color: #6A4E23;
+        }
+
+        .content h2 {
+            font-size: 2.5rem;
+            color: #6A4E23;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .content p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px;
+            color: #333;
+        }
+
+        /* Additional Styles for better spacing and responsiveness */
+        .place-section {
+            padding: 40px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .place {
+            display: flex;
+            width: 48%;
+            background-color: #F8F1E8;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .place img {
+            width: 50%;
+            border-radius: 10px;
+        }
+
+        .place-text {
+            padding-left: 20px;
+            color: #6A4E23;
+        }
+
+        .place-text h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #D4C4A8;
+            color: #4a4a4a;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer nav a {
+            color: #4a4a4a;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.9rem;
+        }
+
+        footer nav a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-contact {
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>IT’S TIME TO FEEL OMAN  </h1>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content">
+        <h2>IMMERSIVE CULTURAL JOURNEY</h2>
+        <p> Looking to explore a world of rich history and vibrant traditions? Oman is a cultural treasure waiting to be discovered. Wander through ancient souks, visit historic forts, and experience the warm hospitality of its people. 
+		From the stunning Islamic architecture to the timeless customs and festivals, Oman offers a deep connection to its heritage. Let the country’s cultural tapestry immerse you in its beauty, where every experience is a step back in time, yet full of life and energy..</p>
+    </section>
+
+<section class="place-section" style="display: flex; flex-direction: column; gap: 20px; padding: 0;">
+    <div class="place" style="display: flex; flex-direction: row-reverse; width: 100%; height: 70vh; background-color: #F8F1E8; padding: 20px; align-items: center;">
+        <img src="imgg/cul2.jpg" alt="VIBRANT OMANI CULTURE" style="width: 60%; height: 100%; object-fit: cover; border-radius: 10px;">
+        <div class="place-text" style="padding-right: 20px; color: #6A4E23; max-width: 40%; text-align: left;">
+            <h3 style="font-size: 2rem; font-weight: bold;">VIBRANT OMANI CULTURE</h3>
+            <p style="font-size: 1.2rem; line-height: 1.6;">The culture of Oman is as vibrant as it is captivating. With its timeless traditions, stunning festivals, rich stories, and diverse local customs, Oman offers a truly unique cultural experience.
+			From the colorful souks to the welcoming hospitality of its people, immerse yourself in the lively spirit of Oman and its heritage, where every corner tells a story of history, unity, and pride. </p>
+        </div>
+    </div>
+
+
+<section class="place-section" style="display: flex; flex-direction: column; gap: 20px; padding: 0;">
+    <div class="place" style="display: flex; width: 100%; height: 70vh; background-color: #F8F1E8; padding: 20px; align-items: center;">
+        <img src="imgg/cul.jpg" alt="ANCIENT MONUMENTS" style="width: 60%; height: 100%; object-fit: cover; border-radius: 10px;">
+        <div class="place-text" style="padding-left: 20px; color: #6A4E23; max-width: 40%;">
+            <h3 style="font-size: 2rem; font-weight: bold;">ANCIENT MONUMENTS</h3>
+            <p style="font-size: 1.2rem; line-height: 1.6;"> Oman is home to ancient monuments that will leave you in awe. 
+			From the majestic forts that dot the landscape to the historic mosques and watchtowers, every corner of Oman offers a glimpse into its rich past. </p>
+        </div>
+    </div>
+	
+	<section class="place-section" style="display: flex; flex-direction: column; gap: 20px; padding: 0;">
+    <div class="place" style="display: flex; flex-direction: row-reverse; width: 100%; height: 70vh; background-color: #F8F1E8; padding: 20px; align-items: center;">
+        <img src="imgg/food.jpg" alt="EXOTIC FOOD " style="width: 60%; height: 100%; object-fit: cover; border-radius: 10px;">
+        <div class="place-text" style="padding-right: 20px; color: #6A4E23; max-width: 40%; text-align: left;">
+            <h3 style="font-size: 2rem; font-weight: bold;">EXOTIC FOOD </h3>
+            <p style="font-size: 1.2rem; line-height: 1.6;">Craving unique flavors? Oman’s cuisine offers a delicious adventure for your taste buds. From the fragrant spices of Shuwa, slow-cooked to perfection, to the fresh and flavorful Mashuai, Oman’s culinary delights are a feast for the senses.
+			Whether you’re savoring traditional dishes in a local eatery or enjoying street food at a bustling souk, Oman's food scene is sure to leave you craving more long after your visit.</p>
+        </div>
+    </div>
+
+    <!-- Additional places can be added here with the same layout -->
+</section>
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <nav>
+            <a href="Deira.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="visit.html">Visit</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-contact">
+            <p>Email: email@example.com | Phone: 123-456-7890</p>
+        </div>
+    </footer>
+
+</body>
+</html>
